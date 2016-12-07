@@ -1,0 +1,155 @@
+html {
+  background-color: #14141f;
+  color: #ffcc00;
+}
+.lnavbar {
+  float: left;
+  font-size: 1.5em;
+  padding: 8px;
+}
+.rnavbar {
+  text-align: right;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 8px;
+  border-style: ridge;
+}
+@media only screen and (max-width: 1000px) {
+  .rnavbar {
+    text-align: right;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 8px;
+    border-style: ridge;
+  }
+}
+.lnavbarsplash {
+  float: left;
+  font-size: 1.5em;
+  padding: 8px;
+}
+@media only screen and (max-width: 1000px) {
+  .lnavbarsplash {
+    float: left;
+    font-size: 1em;
+    padding: 8px;
+  }
+}
+.rnavbarsplash {
+  text-align: right;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 8px;
+}
+@media only screen and (max-width: 1000px){
+  .rnavbarsplash {
+    text-align: right;
+    color: red;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 8px;
+  }
+}
+a:visited {
+  color: #ffffff;
+}
+@media only screen and (max-width: 1000px){
+  a:visited {
+    color: #ffcc00;
+  }
+}
+a:link {
+  color: #ffffff;
+}
+@media only screen and (max-width: 1000px){
+  a:link {
+    color: #ffcc00;
+  }
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+.adplink {
+  color: #ffffff;
+}
+.container {
+  width: 100%;
+}
+.enterbutton {
+  width: 50%;
+  float: right;
+  font-size: 2.5em;
+}
+.splashbg {
+  background: url("Cropy - Copy.jpg");
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 1000px)  {
+  .splashbg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background: url("IMG_6580_resize.JPG")
+  }
+}
+.mainphoto {
+  display: block;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+.milkythumb {
+  display: block;
+  margin: auto;
+}
+footer {
+  bottom: 0;
+  color: #ffcc00;
+  position: absolute;
+}
+.enterb {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+  }
+.imagedetails {
+  text-align: center;
+}
+#maincart {
+  width: 55%;
+  border-right: 2px
+  float: left;
+}
+#asidecart {
+  width: 45%;
+  float: right;
+}
+label {
+  float: left;
+  width: 5em;
+
+}
+input {
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+#button {
+  margin-left:7em;
+}
+#minitext {
+  font-size: 1%;
+}
